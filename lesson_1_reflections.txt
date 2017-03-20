@@ -1,0 +1,67 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced? 
+---------------------------------------------------------------------------
+Well, first of all, it was really easy to see where files had changed and which part of the
+files had changed exactly. Without diff, it was a pain to look through the entire code and see
+how and where the new file had changed and differed from the old. Plus, diff offered the line
+number and context where the file was changed (those - and + thingies were pretty cool imo)
+
+When I was viewing the bug in html file, I had to check and read each line and it took a lot of
+time. With diff, it was instantly. Didn't have to wait at all. Everything served on the platter.
+
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+---------------------------------------------------------------------------
+I think that would be pretty helpful. Whenever I felt I have messed up something in my current
+version, I can always go to previous version and restore or undo my messy changes to the older
+working version of the file. Also, it would help me track my progres or see how the file has
+evolved over time. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you
+do in Git, vs having versions automatically saved, like Google Docs does?
+---------------------------------------------------------------------------
+Eto, sou desu ne. When I commit manually, I have more control over what to commit and when to
+commit. But on the other hand, if I forget to commit or save my data would be lost. Auto saving
+on the other hand saves things for me and that's really convenient but when I don't know what
+exactly it saves and it has no logical thought behind saving the code. It just saves whenever it
+feels like no matter if the code is runs or has any kind of logical change. I can pass helpful
+messages with commits for future references which auto save doesn't allow. Thinking about it,
+I think it's matter of trade off. I think git allows more advantages here since other people
+might use my code in the future and all the commit log would be helpful for me or any other
+person in the future since it makes sense logically (if I commit correctly that is).
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one
+commit, while others, like Google Docs, treat each file separately?
+---------------------------------------------------------------------------
+Saving multiple files separately is like taking a snapshot. When I want to revert to some older
+version of the file, I can just revert to that snapshot. It basically restores me to the state I
+was in before, just as it is. 
+
+How can you use the commands git log and git diff to view the history of files?
+---------------------------------------------------------------------------
+Umm. Let's see. I can use git log to see all the commits (or changes) I have made in the past. I
+can also see what changes I have made by reading git commit  messages. git diff tells me the
+difference between each commit. So, basically I can see how the files have changed over time. I
+can take any old version of file and compare it with the latest version and see what was added
+and what was deleted. 
+
+
+How might using version control make you more confident to make changes that could break
+something?  
+--------------------------------------------------------------------------- 
+I can just go back to whatever version I was working on before and see what changes I had made
+before. But more than that, it gives me a sense of security. I can just use git checkout now and
+see a previous version and run it just like that. Every thing just returned to its previous
+state helps a lot. When doing manually, I would have to remember each and every thing which
+sounds like a pain. I don't have to remember any changes. If I feel like something has broke in
+this commit, I just do git checkout and see where I messed and fix it. Pretty cool imo. 
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+---------------------------------------------------------------------------
+Umm. I want to use it for my Java project and maybe this reflections text too. Since I am adding
+new question with each reflection. I want to use this mainly for Java or any other kind of
+project though because manually maintaining different copies of the same project and working on
+them separately is kinda pain. I am like a super slow and primitive version of git.

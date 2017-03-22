@@ -30,8 +30,16 @@ decide which files I need to add and what changes have been made. I can use this
 commit which has only one logical change. I can further compare the staged changes with the
 repository to make sure the changes I am adding represent a single logical change.  
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How
+would branches help?
+----------------------------------------------------------------------------
+When I want to work on a new feature I can just create a new branch and work on it without
+worrying about the changes to my master or main branch. My main code will remain unchanged while
+I can try new things in my branch. When I am done with the changes in branch, I can just go to
+main code and I would see now changes there. This would help to avoid mixing up the changes. I
+get a separate history and a virtual directory to try new things and the history of that
+directory will be accessed only from that branch while main history remains untouched. It will
+make the history and code in general easy to navigate and manage. 
 
 How do the diagrams help you visualize the branch structure?
 

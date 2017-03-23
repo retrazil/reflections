@@ -42,6 +42,14 @@ directory will be accessed only from that branch while main history remains unto
 make the history and code in general easy to navigate and manage. 
 
 How do the diagrams help you visualize the branch structure?
+----------------------------------------------------------------------------
+Eto, diagrams make it easier to understand what's actually happening inside git, how the history
+is stored. It also helps in tracing the parents and hence make it easier to understand why some
+commits show up in git log while others don't. Diagrams also explain what's called HEAD and
+HEADless state. HEADless state is when I checkout an old commit and make new changes and commit
+them. The new commit will appear as a separate branch which doesn't have any name. It would be
+something like an anonymous branch and unless I create a new branch for that commit or
+note/remember that commit, there would be no way to access it.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?

@@ -51,8 +51,14 @@ them. The new commit will appear as a separate branch which doesn't have any nam
 something like an anonymous branch and unless I create a new branch for that commit or
 note/remember that commit, there would be no way to access it.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the
+way we do?
+----------------------------------------------------------------------------
+When I merge two branches, the branch I am on gets a new commit.It has two parents now. Each of
+them from either of the branches. We represent it in the diagram to show how the two branches
+started and separated along. They follow different line of reach except the final merge commit
+which doesn't, since it has two parents. As a result of the merge, I get a merged and updated
+file which is done automatically and if everything is alright, it works. :)  
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?

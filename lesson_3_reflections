@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+--------------------------------------------------------------------------------
+When I want to work with multiple people over the internet. Also, when I work from 
+multiple computers, I can just clone the remote anytime, from any computer I want. 
+It would also act as a backup for my local repository. In case something happens to
+my local repo, I can always get the data back from remote repo. 

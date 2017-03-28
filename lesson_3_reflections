@@ -12,3 +12,13 @@ I want to pull changes manually because I don't want all of my code to go into t
 repo. Some of it might not work or it might be experimental and full of bugs. I only want to
 push the code which works and I think it's better done manually. Doing it automatically would
 mean uploading buggy or unrunnable code on the remote repository. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of
+another?
+-------------------------------------------------------------------------------- 
+Forks are clones but they exist only on github. Also, forks always link back to the original
+repository. Clones create exact copies of repositories, including the history. You can clone a
+remote repository or a local repository. You can't fork a local repo since it's github only
+feature. Branches are parallel or alternate flowline of your code which exist in the same
+repository. You can work on two things in parallel. Keeping one line for stable code and other
+for experimental code. You can also merge the two timelines. 

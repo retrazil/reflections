@@ -22,3 +22,10 @@ remote repository or a local repository. You can't fork a local repo since it's 
 feature. Branches are parallel or alternate flowline of your code which exist in the same
 repository. You can work on two things in parallel. Keeping one line for stable code and other
 for experimental code. You can also merge the two timelines. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+-------------------------------------------------------------------------------- 
+Sometimes I just might not have internet connection, for example when I am traveling, so I can
+use the local copy of remote to compare my changes with my local master branch. Also, I can
+merge my local master into remote master stored locally and when I have internet connection and
+nobody else is contributing to the project, I can push my branch without any conflicts. 

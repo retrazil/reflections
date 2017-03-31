@@ -29,3 +29,17 @@ Sometimes I just might not have internet connection, for example when I am trave
 use the local copy of remote to compare my changes with my local master branch. Also, I can
 merge my local master into remote master stored locally and when I have internet connection and
 nobody else is contributing to the project, I can push my branch without any conflicts. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be
+harder?
+-------------------------------------------------------------------------------- 
+I can share my code with my friends using mail or storage device. Then I can talk over mail or
+some other means about what to change, what to keep and everything else. But with git, I can
+just upload the code online or share the code with my .git file and let my friend checkout the
+git log. Also, the entire process of adding new code, keeping copies of modified code and older
+code too (just in case) would be kinda pain. I can also create pull requests on github which are
+helpful in discussing whatever changes I have made. However, when I think about collaborating
+without git, it would be pretty simple and straightforward at first. All I have to do is send my
+code to my friend and then talk it over with him about what to keep and what to remove. But as
+the code base grows, more people come in to contribute, it will get pretty difficult to keep
+track of everything. 

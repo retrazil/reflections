@@ -43,3 +43,16 @@ without git, it would be pretty simple and straightforward at first. All I have 
 code to my friend and then talk it over with him about what to keep and what to remove. But as
 the code base grows, more people come in to contribute, it will get pretty difficult to keep
 track of everything. 
+
+When would you want to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+-------------------------------------------------------------------------------- 
+Umm, when I want to add a new experimental feature or when I want to contribute the code to
+someone else's repository. Making changes in a separate branch allows, first flexibility to do
+whatever I want without breaking the main code at master. It also allows for better
+collaboration using online tools like GitHub which have features like pull requests. I can use
+them with branches to communicate my changes with other before adding them to main branch. 
+
+On the other hand, directly adding the code to the master branch, saves all the merging work I
+will have to do and it's a lot simpler but gets complicated over time to maintain and work
+with. 
